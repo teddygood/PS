@@ -6,8 +6,10 @@ class Solution:
         for n in nums:
             if n <= first:
                 first = n
+
             elif n <= second:
                 second = n
+
             else:
                 return True
 
